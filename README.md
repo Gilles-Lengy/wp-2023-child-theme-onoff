@@ -1,3 +1,3 @@
-# wp-2023-child-theme-00000001
+# wp-2023-child-theme-onoff
 
 A wordpress child theme for the twenty twenty-three theme
