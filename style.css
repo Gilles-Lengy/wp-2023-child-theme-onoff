@@ -1,0 +1,29 @@
+/*
+Theme Name: 0000 0001 2023 Child theme
+Theme URI: https://gilleslengy.xyz/
+Author: Gilles Lengy
+Author URI: https://gilleslengy.xyz/
+Template: twentytwentythree
+Version: 1.0
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+*/
+:root {
+    --style-border1-style: solid;
+    --style-border1-thickness: 8px;
+    --style-border2-thickness: 4px;
+}
+.page-title{
+    border-bottom: var(--wp--preset--color--contrast) dashed var(--style-border2-thickness);
+}
+.container-project{
+    background-color: var(--wp--preset--color--contrast);
+    border: var(--wp--preset--color--contrast) var(--style-border1-style) var(--style-border1-thickness);
+    padding-bottom: 2rem;
+}
+.container-project h2{
+    text-transform: uppercase;
+}
+.container-project p{
+    color: var(--wp--preset--color--base);
+}
